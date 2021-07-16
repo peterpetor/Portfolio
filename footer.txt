@@ -1,0 +1,6 @@
+    <!-- footer section start -->
+    <footer>
+        <span><a href="https://www.petor.net/privacypolicy.html" target="_self">Privacy Policy</a></span> |
+        <span><a href="https://www.petor.net/cookiespolicy.html" target="_self">Cookies Policy</a><p></p>
+            <span class="far fa-copyright"></span> 2020 Petor - All rights reserved.</span>
+    </footer>

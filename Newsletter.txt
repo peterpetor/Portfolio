@@ -1,0 +1,4 @@
+    <div class="text-3">E-newsletters</div>
+                <p>
+                    You can unsubscribe from petor.net website at any time. Just click on the ‘unsubscribe’ link in the email. It appears on every e-newsletter I send out.
+                </p>

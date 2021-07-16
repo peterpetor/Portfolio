@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gallery - Petor</title>
+    <link rel="stylesheet" href="gallery.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/716b44f8bf.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="shortcut icon" href="images/favicon.ico" type="images/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="images/x-icon">
+  </head>
+  <body>
+  <!-- Loading square start -->
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+  <script>
+    $(window).on("load",function(){
+      $(".loader-wrapper").fadeOut("slow");
+    });
+  </script>
+  <!-- Loading square end -->
+  <div class="scroll-up-btn" id="musicplay">
+    <i class="fas fa-angle-up"></i>
+    <audio id="music">
+      <source src="audio/up.mp3" type="audio/mp3">
+    </audio>
+  </div>
+  <nav class="navbar">
+    <div class="max-width">
+      <div class="logo"><a href="#home">Pe<span>T</span>or</a></div>
+      <ul class="menu">
+        <li><a href="https://www.petor.net/#home" class="menu-btn">Home</a></li>
+        <li><a href="https://www.petor.net/#about" class="menu-btn">About</a></li>
+        <li><a href="https://www.petor.net/#services" class="menu-btn">Portfolio</a></li>
+        <li><a href="https://www.petor.net/#skills" class="menu-btn">Skills</a></li>
+        <li><a href="https://www.petor.net/#team" class="menu-btn">Team</a></li>
+        <li><a href="https://www.petor.net/#contact" class="menu-btn">Contact</a></li>
+        <li><a href="https://www.behance.net/peterpetor" target="_blank" class="menu-btn"><i class="fab fa-behance"></i></a></li>
+      </ul>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+    <div class="gallery-section">
+      <div class="inner-width">
+        <div class="border"></div>
+        <div class="gallery">
+
+          <a href="gallery/bigcat.jpg" class="image">
+            <img src="gallery/bigcat.jpg" alt="">
+          </a>
+
+          <a href="gallery/flamingo.jpg" class="image">
+            <img src="gallery/flamingo.jpg" alt="">
+          </a>
+
+          <a href="gallery/girl.jpg" class="image">
+            <img src="gallery/girl.jpg" alt="">
+          </a>
+
+          <a href="gallery/vallmo.jpg" class="image">
+            <img src="gallery/vallmo.jpg" alt="">
+          </a>
+
+          <a href="gallery/cat.jpg" class="image">
+            <img src="gallery/cat.jpg" alt="">
+          </a>
+
+          <a href="gallery/nagyi.jpg" class="image">
+            <img src="gallery/nagyi.jpg" alt="">
+          </a>
+
+          <a href="gallery/sun.jpg" class="image">
+            <img src="gallery/sun.jpg" alt="">
+          </a>
+
+          <a href="gallery/toll.jpg" class="image">
+            <img src="gallery/toll.jpg" alt="">
+          </a>
+
+          <a href="gallery/caprocklogo.jpg" class="image">
+            <img src="gallery/caprocklogo.jpg" alt="">
+          </a>
+
+          <a href="gallery/dog.jpg" class="image">
+            <img src="gallery/dog.jpg" alt="">
+          </a>
+
+          <a href="gallery/magazin.jpg" class="image">
+            <img src="gallery/magazin.jpg" alt="">
+          </a>
+
+          <a href="gallery/portal.jpg" class="image">
+            <img src="gallery/portal.jpg" alt="">
+          </a>
+
+
+          <a href="gallery/petor.jpg" class="image">
+            <img src="gallery/petor.jpg" alt="">
+          </a>
+
+          <a href="gallery/joblinken.jpg" class="image">
+            <img src="gallery/joblinken.jpg" alt="">
+          </a>
+
+          <a href="gallery/city.jpg" class="image">
+            <img src="gallery/city.jpg" alt="">
+          </a>
+
+          <a href="gallery/tree.jpg" class="image">
+            <img src="gallery/tree.jpg" alt="">
+          </a>
+
+          <a href="gallery/night.jpg" class="image">
+            <img src="gallery/night.jpg" alt="">
+          </a>
+
+          <a href="gallery/restaurant.jpg" class="image">
+            <img src="gallery/restaurant.jpg" alt="">
+          </a>
+
+          <a href="gallery/bio.jpg" class="image">
+            <img src="gallery/bio.jpg" alt="">
+          </a>
+
+          <a href="gallery/caprock.jpg" class="image">
+            <img src="gallery/caprock.jpg" alt="">
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+  <script>
+    $(".gallery").magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      gallery:{
+        enabled: true
+      }
+    });
+  </script>
+
+  <!-- Image Slider Start -->
+  <div class="wrapper">
+    <div class="images">
+      <div class="img-1"></div>
+      <div class="img-2"></div>
+    </div>
+    <div class="slider">
+      <div class="drag-line">
+        <span></span>
+      </div>
+      <input type="range" min="0" max="100" value="50">
+    </div>
+  </div>
+
+  <script>
+    const slider = document.querySelector(".slider input");
+    const img = document.querySelector(".images .img-2");
+    const dragLine = document.querySelector(".slider .drag-line");
+    slider.oninput = ()=>{
+      let sliderVal = slider.value;
+      dragLine.style.left = sliderVal + "%";
+      img.style.width = sliderVal + "%";
+      // img.style.backgroundSize = sliderVal + "%" ;
+    }
+  </script>
+  <!-- Image Slider End -->
+  <!-- PDF start -->
+  <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=t30v33i1ci" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen></iframe>
+  <!-- PDF end -->
+
+  <!-- footer section start -->
+  <footer>
+    <span><a href="https://www.petor.net/privacypolicy.html" target="_self">Privacy Policy</a></span> |
+    <span><a href="https://www.petor.net/cookiespolicy.html" target="_self">Cookies Policy</a><p></p>
+            <span class="far fa-copyright"></span> 2020-2021 Petor - All rights reserved.</span>
+  </footer>
+
+  <script language="JavaScript">
+    /**
+     * Disable right-click of mouse, F12 key, and save key combinations on page
+     * By Arthur Gareginyan (https://www.arthurgareginyan.com)
+     * For full source code, visit https://mycyberuniverse.com
+     */
+    window.onload = function() {
+      document.addEventListener("contextmenu", function(e){
+        e.preventDefault();
+      }, false);
+      document.addEventListener("keydown", function(e) {
+        //document.onkeydown = function(e) {
+        // "I" key
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+          disabledEvent(e);
+        }
+        // "J" key
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+          disabledEvent(e);
+        }
+        // "S" key + macOS
+        if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+          disabledEvent(e);
+        }
+        // "U" key
+        if (e.ctrlKey && e.keyCode == 85) {
+          disabledEvent(e);
+        }
+        // "F12" key
+        if (event.keyCode == 123) {
+          disabledEvent(e);
+        }
+      }, false);
+      function disabledEvent(e){
+        if (e.stopPropagation){
+          e.stopPropagation();
+        } else if (window.event){
+          window.event.cancelBubble = true;
+        }
+        e.preventDefault();
+        return false;
+      }
+    };
+  </script>
+  <script src="script.js"></script>
+  </body>
+</html>
