@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Petor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/716b44f8bf.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="shortcut icon" href="images/favicon.ico" type="images/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="images/x-icon">
+    <meta name="title" content="Petor Portfolio">
+    <meta name="description" content="Peter Petor portfolio website.  ">
+    <meta name="keywords" content="photoshop, after effects, premiere pro, indesign, illustrator, html, css, skill, team, codeing, code, petor website, portfolio petor, peter design, petor design, cricut design space, graphic design, logo design, web design, how to design a logo, website design">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <!--Start Cookie Script-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?forceLang=en&always=1"></script>
+    <!--End Cookie Script-->
+    <!--Start Recaptcha Script-->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <!--End Recaptcha Script-->
+    <!--Start Share Script-->
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f94caef6bdd840019e025e5&product=sop' async='async'></script>
+    <!--End Share Script-->
+    <!--FullScreen Video Background Start-->
+    <script src="jquery.vide.js"></script>
+    <!--FullScreen Video Background End-->
+</head>
+<body>
+<!-- Loading square start -->
+<div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
+<script>
+    $(window).on("load",function(){
+    $(".loader-wrapper").fadeOut("slow");
+    });
+</script>
+<!-- Loading square end -->
+    <div class="scroll-up-btn" id="musicplay">
+        <i class="fas fa-angle-up"></i>
+        <audio id="music">
+            <source src="audio/up.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#home">Pe<span>T</span>or</a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Portfolio</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#team" class="menu-btn">Team</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a href="https://www.behance.net/peterpetor" target="_blank" class="menu-btn"><i class="fab fa-behance"></i></a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <div data-vide-bg="aurora.mp4">
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Peter</div>
+                <div class="text-3">And I'm a <p></p><span class="typing"></span></div>
+            </div>
+            <div class="google">
+                <a href='https://play.google.com/store/apps/details?id=net.petor.app' target="_blank"><img alt='Get it on Google Play' src='images/google.svg'/></a>
+            </div>
+        </div>
+    </section>
+</div>
+    <!-- about section start -->
+<div data-vide-bg="background">
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/pp.png" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Peter and I'm a <p></p><span class="typing-2"></span></div>
+                        <p></p>
+                        <p>I graduated in Economic Informatics. I created my first website at the time. Later, I started working on application development. First I created apps for Android system and later for iOS system. I have always been interested in design too. Therefore, I learned to use the following programs: Photoshop, InDesign, Illustrator. Later I started dealing with videos. I have mastered the use of the following programs through courses: Premiere Pro, After Effects. I am currently studying programming in my free time.</p>
+                    <a href="#skills">My skills</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My portfolio</h2>
+                    <div class="serv-content">
+                        <div class="card">
+                            <div class="box" onclick="raklikkelt1()">
+                            <i class="fas fa-paint-brush"></i>
+                            <div class="text">Design</div>
+                            <p>My image portfolio.</p>
+                        </div>
+                    </div>
+                   <div class="card">
+                    <div class="box" onclick="raklikkelt2()">
+                        <i class="fas fa-play"></i>
+                        <div class="text">Video</div>
+                        <p>My video portfolio.</p>
+                    </div>
+                   </div>
+                  <div class="card">
+                    <div class="box" onclick="raklikkelt3()">
+                        <i class="fab fa-android"></i>
+                        <div class="text">Android App</div>
+                        <p>My Android portfolio.</p>
+                    </div>
+                  </div>
+                    </div>
+            </div>
+    </section>
+
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills.</div>
+                        <p>For website development, I use the following program languages: <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>.</p>
+                        <p>For graphic works, I use <b>Photoshop</b>, <b>InDesign</b>, <b>Illustrator</b>, softwares.</p>
+                        <p>For video cutting and editing, I use the following softwares: <b>Premiere Pro</b>, <b>After Effects</b>.</p>
+                    <a href="#about">Read more</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Photoshop</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line psd"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Illustrator</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line ai"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>InDesign</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line indd"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Premiere Pro</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line premierepro"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>After Effects</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line aftereffects"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- teams section start -->
+    <section class="team" id="team">
+        <div class="max-width">
+            <h2 class="title">My team</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-2.jpg" alt="">
+                        <div class="text">Peter</div>
+                        <p>Responsible for design and for coding.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-2.jpeg" alt="">
+                        <div class="text">Pixel</div>
+                        <p>Responsible for support and for the good humor.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-4.jpeg" alt="">
+                        <div class="text">Dani</div>
+                        <p>Many times Dani is the model in the content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left"></div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="https://getform.io/f/e59fc5b4-91aa-48af-9d05-fba9b76bffa4" method="POST">
+                        <div class="fields">
+                            <div class="field name">
+                                <label>
+                                    <input type="text" name="name" placeholder="Your Name" required="required" autocomplete="autocomplete">
+                                </label>
+                            </div>
+                            <div class="field email">
+                                <label>
+                                    <input type="email" name="email" placeholder="Email" required="required" autocomplete="autocomplete">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="field textarea">
+                            <div class="form-group">
+                                <textarea class="form-control" cols="30" rows="5" name="message" placeholder="Your Message" required="required"></textarea>
+                            </div>
+                        </div>
+                        <div class="g-recaptcha" data-sitekey="6LeYZdMZAAAAAMCP9XHDjYBW_UmfGSzYqPc305-s"></div>
+                        <div class="button">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <span><a href="https://www.petor.net/privacypolicy.html" target="_self">Privacy Policy</a></span> |
+        <span><a href="https://www.petor.net/cookiespolicy.html" target="_self">Cookies Policy</a><p></p>
+            <span class="far fa-copyright"></span> 2020-2022 Peter Petor - All rights reserved.</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
