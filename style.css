@@ -17,10 +17,7 @@ html{
 .google{
     width: 200px;
 }
-.apple{
-    margin-bottom: 13px;
-    width: 200px;
-}
+
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
