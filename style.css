@@ -15,7 +15,8 @@ html{
     scroll-behavior: smooth;
 }
 .google{
-    width: 200px;
+    width: 240px;
+    height: auto;
 }
 
 /* custom scroll bar */
