@@ -86,10 +86,12 @@ function raklikkelt2() {
 function raklikkelt3() {
     window.open("https://play.google.com/store/apps/dev?id=4710023491977711195", "_blank");
 }
-
 function raklikkelt4() {
     window.open("https://github.com/peterpetor", "_blank");
 }
 function raklikkelt5() {
+    window.open("https://www.tradera.com/en/profile/items/4791217/proseller", "_blank");
+}
+function raklikkelt6() {
     window.open("https://www.amazon.com/s?i=digital-text&rh=p_27%3APeter+Petor&s=relevancerank&text=Peter+Petor&ref=dp_byline_sr_ebooks_1", "_blank");
 }
