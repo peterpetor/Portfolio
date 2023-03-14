@@ -80,7 +80,7 @@ function raklikkelt1() {
 }
 
 function raklikkelt2() {
-    window.open("https://www.petor.net/video.html", "_self");
+    window.open("https://www.youtube.com/playlist?list=PLQAn06-lB4_Up3cdv370gqk3zhdF2yKyb", "_blank");
 }
 
 function raklikkelt3() {
