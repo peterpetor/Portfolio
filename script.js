@@ -88,12 +88,8 @@ function raklikkelt3() {
 }
 
 function raklikkelt4() {
-    window.open("https://apps.apple.com/us/developer/peter-petor/id1168436849#see-all/i-phonei-pad-apps", "_blank");
-}
-
-function raklikkelt5() {
     window.open("https://github.com/peterpetor", "_blank");
 }
-function raklikkelt6() {
+function raklikkelt5() {
     window.open("https://www.amazon.com/s?i=digital-text&rh=p_27%3APeter+Petor&s=relevancerank&text=Peter+Petor&ref=dp_byline_sr_ebooks_1", "_blank");
 }
