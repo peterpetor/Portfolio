@@ -93,5 +93,5 @@ function raklikkelt5() {
     window.open("https://www.etsy.com/shop/InstaGreetingCards", "_blank");
 }
 function raklikkelt6() {
-    window.open("https://www.amazon.com/s?i=digital-text&rh=p_27%3APeter+Petor&s=relevancerank&text=Peter+Petor&ref=dp_byline_sr_ebooks_1", "_blank");
+    window.open("https://opensea.io/Pix3lPrint", "_blank");
 }
